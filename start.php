@@ -22,6 +22,8 @@
 	
 	$dbselect = @mysql_select_db("$db_name", "$db");
 	
+	
+	
 	@mysql_close($db);
 
 ?>
